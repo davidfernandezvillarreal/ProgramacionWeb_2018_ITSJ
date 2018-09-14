@@ -1,0 +1,57 @@
+body {
+    font: 15px Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: beige; 
+    
+}
+
+section {
+    text-align: center;
+}
+
+table {
+    border: 1px solid gray;
+    text-align: left;
+    margin-top: 15px;
+}
+
+th,td {
+    border: 1px solid gray;
+    text-align: left:
+}
+
+table {
+    width: 100%;
+}
+
+.left {
+    font-size: 15px;
+    float: left;
+}
+
+.right {
+    font-size: 15px;
+    float: right;
+}
+
+.conf_padding_left {
+    margin-left: 200px;
+    padding-top: 50px;
+    float: left;
+}
+
+.conf_padding_right {
+    margin-right: 200px;
+    padding-top: 50px;
+    float: right;
+}
+
+footer p {
+    text-align: center;
+}
+
+td img {
+    align-content: center;
+}
