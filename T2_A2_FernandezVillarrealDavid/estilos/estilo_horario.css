@@ -3,7 +3,8 @@ body {
     padding: 0;
     margin-left: 100px;
     margin-right: 100px;
-    background-color: beige; 
+    background-color: white;
+    color: black;
     
 }
 
@@ -15,15 +16,16 @@ table {
     border: 1px solid gray;
     text-align: left;
     margin-top: 15px;
+    width: 100%;
 }
 
 th,td {
-    border: 1px solid gray;
+    border: 1px solid grey;
     text-align: left:
 }
 
-table {
-    width: 100%;
+table#tabla_horario tr:hover td {
+    background-color: aquamarine;
 }
 
 .left {
