@@ -1,0 +1,151 @@
+body {
+    background-color: #e6ecf0;
+    font-family: "Segoe UI",Arial,sans-serif;
+    color: #14171a;
+    font-size: 18px;
+    height: 100%;
+    line-height: 20px;
+    margin: 0;
+}
+
+div {
+    display: inline;
+}
+
+#div-left {
+    float: left;
+    background: #1da1f2 url(../imagenes/twitter_logo.png) no-repeat left;
+    color: white;
+    font-weight:bold;
+    position: relative;
+    min-height: 577px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#div-right {
+    float: right;
+    background-color: white;
+    position: relative;
+    min-height: 577px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#slider {
+    padding: 0px 150px 20px 150px;
+    padding-top: 150px;
+}
+
+.estilo-h1 {
+    margin: 0 auto;
+    font-size: 27px;
+    line-height: 32px;
+}
+
+.estilo-h2 {
+    color: #14171a;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 48px;
+    line-height: 32px;
+}
+
+#icon-twitter {
+    color: #1da1f2;
+    font-size: 45px;
+    margin-bottom: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.form-login {
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 6px 16px;
+    text-align: center;
+    
+    margin-bottom: 16px;
+}
+
+#a-registrarse {
+    background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+    color: #fff;
+    display: block;
+}
+
+#a-registrarse:hover {
+    background-color: #006dbf;
+    border-color: #006dbf;
+    color: #fff;
+}
+
+#a-iniciar-sesion {
+    background-color: ##fff;
+    border: 1px solid #1da1f2;
+    color: #1da1f2;
+    display: block;
+} 
+
+#a-iniciar-sesion:hover {
+    background-color: #eaf5fd;
+    color: #1da1f2;
+}
+
+#a-login {
+    background-color: ##fff;
+    border: 1px solid #1da1f2;
+    color: #1da1f2;
+    display: inline;
+    float: right;
+    padding: 12px;
+    font-size: 12px;
+}
+
+i {
+    font-size: 35px;
+    margin-right: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+#div-left ul {
+    padding-top: 200px;
+}
+
+#div-left li {
+    padding: 20px 0px 20px 100px;
+}
+
+#div-right li {
+    cursor: pointer;
+    padding: 20px 0px 20px 100px;
+}
+
+footer {
+    text-align: center;
+    
+}
+
+footer li {
+    color: #aab8c2;
+    font-size: 12px;
+    display: inline;
+    padding: 0 5px;
+    text-align: center;
+}
+
+footer li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
