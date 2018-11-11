@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset="utf-8">
+	<title>Iniciar sesión</title>
+    
+    <!--Fontawesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+	<!--Custom styles-->
+	<link rel="stylesheet" type="text/css" href="vista/estilos/login.css">
+</head>
+<body>
+<div class="container">
+	<div class="d-flex justify-content-center h-100">
+		<div class="card">
+			<div class="card-header">
+				<h3>Iniciar sesión</h3>
+			</div>
+			<div class="card-body">
+				<form method="post" action="scripts/servidor/procesar_login.php">
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-user"></i></span>
+						</div>
+						<input type="text" class="form-control" placeholder="usuario" name="caja_user" id="caja_user">
+						
+					</div>
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-key"></i></span>
+						</div>
+						<input type="password" class="form-control" placeholder="constraseña" name="caja_password" id="caja_password">
+					</div>
+					
+					<div class="form-group">
+						<input type="submit" value="Entrar" class="btn float-right login_btn">
+					</div>
+				</form>
+			</div>
+			<div class="card-footer">
+				<div class="d-flex justify-content-center links">
+					¿No tienes una cuenta?<a href="vista/paginas/registrarse.php">Registrate</a>
+				</div>
+				<div class="d-flex justify-content-center">
+					<a href="#">¿Olvidaste tu contraseña?</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
